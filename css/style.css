@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.icon-header{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.icon-header i, span{
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.grid-icon, .arrow{
+    display: inline-block;
+    background-color: gray;
+    text-align: center;
+    border-radius: 5px;
+}
