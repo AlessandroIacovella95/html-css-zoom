@@ -41,17 +41,50 @@ footer{
     justify-content: space-between;
 }
 
+.flex{
+    display: flex;
+}
+
 .icon-header{
     text-align: right;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-i, span{
+.grid-icon span{
     color: white;
     font-size: 15px;
     padding: 3px;
     text-align: center;
+}
+
+.grid-icon i{
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;  
+}
+
+.arrow i{
+    color: white;
+    font-size: 15px;
+    padding:3px;
+    text-align: center;  
+}
+
+
+.absolute span{
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}
+
+.absolute i{
+    color: white;
+    font-size: 12px;
+    padding-left: 2px;
+    text-align: center;  
 }
 
 .grid-icon, .arrow{
@@ -79,11 +112,15 @@ i, span{
     margin-left: 10px;
 }
 
+.footer-center{
+    display: flex;
+    margin-left: 10px;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;
-    padding: 5px 5px;
-    
+    padding: 5px 5px;  
 }
 
 .flex-column i{
@@ -93,13 +130,41 @@ i, span{
 
 .flex-row{
     display: flex;
-    padding top: 8px;
+    padding-top: 8px;
 }
 
 .angle-up{
-    align-self: center;
+    align-self:center;
 }
 
 .flex-column span{
     font-size: 15px;
+}
+
+.flex-column i{
+    color: white;
+    font-size: 18px;
+    padding:3px;
+    text-align: center;  
+}
+
+.flex-column span{
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}   
+
+.angle-up i{
+    color: white;
+    font-size: 15px;
+    padding:3px;
+    text-align: center;
+}
+
+#angle{
+    font-size: 10px;
+    align-self: center;
+    color: white;
+    margin: 0 10px;
 }
