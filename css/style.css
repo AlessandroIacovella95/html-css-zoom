@@ -12,14 +12,38 @@ body{
     background-color: black;
 }
 
+.container{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 5px;
+    left: 0; 
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
 .icon-header{
     text-align: right;
     margin-top: 10px;
+    margin-right: 10px;
 }
 
-.icon-header i, span{
+i, span{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 3px;
 }
 
@@ -29,3 +53,13 @@ body{
     text-align: center;
     border-radius: 5px;
 }
+
+.cards{
+    width: calc(100% / 7 - 20px);
+    margin: 10px 10px;
+}
+
+.bg-color{
+    background-color:rgba( 169, 169, 169, 0.5 )
+}
+
