@@ -12,8 +12,14 @@ body{
     background-color: black;
 }
 
+main{
+    height: calc(100vh - 62px);
+    overflow: auto;
+}
+
 footer{
     background-color: #222222;
+    min-height: 62px;
 }
 
 .container{
@@ -48,55 +54,48 @@ footer{
 .icon-header{
     text-align: right;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .grid-icon span{
     color: white;
     font-size: 15px;
-    padding: 3px;
-    text-align: center;
+    padding-right: 3px ;
 }
 
 .grid-icon i{
     color: white;
     font-size: 15px;
-    padding: 3px;
-    text-align: center;  
+    padding: 3px;  
 }
 
 .arrow i{
     color: white;
     font-size: 15px;
-    padding:3px;
-    text-align: center;  
+    padding: 3px 3px;
 }
-
 
 .absolute span{
     color: white;
     font-size: 12px;
-    padding: 3px;
-    text-align: center;
 }
 
 .absolute i{
     color: white;
     font-size: 12px;
-    padding-left: 2px;
-    text-align: center;  
+    padding-left: 2px; 
 }
 
 .grid-icon, .arrow{
     display: inline-block;
     background-color: gray;
-    text-align: center;
     border-radius: 5px;
 }
 
 .cards{
-    width: calc(100% / 7 - 4px);
-    margin: 1px 2px;
+    width: calc(100% / 7 - 8px);
+    margin-top: 5px;
+    margin-right: 4px;
 }
 
 .cards img{
@@ -152,14 +151,12 @@ footer{
     color: white;
     font-size: 12px;
     padding: 3px;
-    text-align: center;
 }   
 
 .angle-up i{
     color: white;
     font-size: 15px;
     padding:3px;
-    text-align: center;
 }
 
 #angle{
