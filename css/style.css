@@ -16,7 +16,7 @@ body{
 
 footer{
     background-color: #222222;
-    height: 59px;
+    min-height: 59px;
 }
 
 /* ?utils */
@@ -30,6 +30,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 35px;
     margin-bottom: 50px;
@@ -77,27 +78,27 @@ footer{
 /* !main */
 
 main{
-    height: calc(100vh - 90px);
+    height: calc(100vh - 95px);
     overflow: auto;
 }
 
 .cards{
-    width: calc(100% / 7 - 8px);
-    margin-top: 5px;
-    margin-right: 4px;
+    width:150px;
+    margin-top: 4px;
+    margin-right: 4px; 
 }
 
-.cards img{
-    max-width: 100%;
+.cards  img{
+    width: 100%;
 }
 
 .relative{
     position: relative;
 }
 
-.absolute{
+.cards > .absolute{
     position: absolute;
-    bottom: 5px;
+    bottom: 4px;
     left: 0; 
 }
 
